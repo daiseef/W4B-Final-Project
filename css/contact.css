@@ -55,3 +55,34 @@ a:visited{
 a:hover{
     color: cadetblue;
 }
+footer{
+    width: 100%;
+    height: 170px;
+    background-color: #2E2C2C;
+    color: white;
+}
+.footerItems{
+    font-family: 'Poiret One', cursive;
+    text-align: right;
+    float: right;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.fa{
+    font-size: 30px;
+    color: white;
+    padding-top: 120px;
+    padding-left: 20px;
+    
+}
+.fa:hover{
+    color: cadetblue;
+}
+.fa:active{
+    color: black;
+}
