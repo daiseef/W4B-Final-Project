@@ -34,6 +34,7 @@ nav {
     font-family: 'Poiret One', cursive;
     position: sticky;
     top: 0px;
+    z-index: 1;
 
 }
 nav ul{

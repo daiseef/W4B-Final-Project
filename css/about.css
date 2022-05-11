@@ -55,3 +55,64 @@ a:visited{
 a:hover{
     color: cadetblue;
 }
+.about{
+    width: 100%;
+    height: 500px;
+    background-color: #ede2d6;
+}
+.threeCandles{
+    margin: 60px;
+    border-radius: 5px;
+}
+.aboutMe{
+    width: 500px;
+    height: 300px;
+    font-family: 'Poiret One', cursive;
+    color: #2E2C2C;
+    font-size: large;
+    line-height: 25px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 75px;
+}
+section{
+    width: 100%;
+    height: 500px;
+    background-color: #ede2d6;
+    font-family: 'Poiret One', cursive;
+    color: #2E2C2C;
+    line-height: 25px;
+    padding: 60px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 170px;
+    background-color: #2E2C2C;
+    color: white;
+}
+.footerItems{
+    font-family: 'Poiret One', cursive;
+    text-align: right;
+    float: right;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.fa{
+    font-size: 30px;
+    color: white;
+    padding-top: 120px;
+    padding-left: 20px;
+    
+}
+.fa:hover{
+    color: cadetblue;
+}
+.fa:active{
+    color: black;
+}
