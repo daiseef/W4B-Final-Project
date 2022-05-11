@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05))
+    
+}
+.wixtonLogo{
+    float: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    filter: brightness(95%);
+}
+
+.headingText{
+    padding-top: 20px;
+    font-size: 100px;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #2E2C2C;
+    color: white;
+    text-align: right;
+    font-family: 'Poiret One', cursive;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 19px 20px;
+    font-size: 30px;
+}
+
+a:active{
+    color:black;
+}
+a:visited{
+    color:#ede2d6;
+}
+a:hover{
+    color: cadetblue;
+}
+.row{
+    background-color: #ede2d6;
+    width: 100%;
+    height: 500px;
+}
+
+.column1, .column2, .column3, .column4{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 60px 62px;
+    display: inline-block;
+    
+}
+footer{
+    width: 100%;
+    height: 170px;
+    background-color: #2E2C2C;
+    color: white;
+}
+.footerItems{
+    font-family: 'Poiret One', cursive;
+    text-align: right;
+    float: right;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.fa{
+    font-size: 30px;
+    color: white;
+    padding-top: 120px;
+    padding-left: 20px;
+    
+}
+.fa:hover{
+    color: cadetblue;
+}
+.fa:active{
+    color: black;
+}
