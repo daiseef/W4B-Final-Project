@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -131,6 +132,25 @@ section p{
     position: relative;
     background-repeat: no-repeat;
     border-radius: 5px;
+}
+.topButton a{ 
+    padding: 4px;
+    background-color: #ede2d6;
+    border: 1px solid #2E2C2C;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2E2C2C;
+    position: absolute;
+    right: 60px;
+    bottom: -104%;
+}
+.topButton a:hover{
+    background-color: cadetblue;
+    
+}
+.topButton a:active{
+    background-color: white;
 }
 
 footer{
